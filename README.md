@@ -1,6 +1,7 @@
 # Router
 
-Selects the logic to respond to requests based on the `request` method and URL. Can be used with REST APIs or apps that require basic routing logic.
+A Cloudflare Workers application with functionality to handle requests based on `Request` path, method, or headers. 
+This is a good starting point for a REST API or other application that needs to route requests.
 
 - [`router.ts`](https://github.com/ispivey/workers-router-typescript-template/blob/master/src/router.ts) implements the `Router` object
 - [`handler.ts`](https://github.com/ispivey/workers-router-typescript-template/blob/master/src/handler.ts) includes examples of using a `Router` to handle requests
