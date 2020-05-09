@@ -42,10 +42,6 @@ To generate using Wrangler, run this command:
 wrangler generate my-app https://github.com/ispivey/workers-router-typescript-template
 ```
 
-### 👩 💻 Developing
-
-[`src/index.js`](./src/index.ts) calls the request handler in [`src/handler.ts`](./src/handler.ts), and will return the [request method](https://developer.mozilla.org/en-US/docs/Web/API/Request/method) for the given request.
-
 ### 🧪 Testing
 
 This template comes with mocha tests which simply test that the `handleRequest` function can handle each request method. `npm test` will run your tests.
