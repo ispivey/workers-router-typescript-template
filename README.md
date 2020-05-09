@@ -22,6 +22,14 @@ const resp = await r.route(request)
 return resp
 ```
 
+Handler functions must be of the type:
+
+```typescript
+interface HandlerFunc {
+  (req: Request): Promise<Response>
+}
+```
+
 You can construct more complex routing rules based on request method, path-matching regular expressions, and headers. In the current absence of documentation, check out [`router.ts`](https://github.com/ispivey/workers-router-typescript-template/blob/master/src/router.ts) to learn more.
 
 ### 🔋 Getting Started
